@@ -11,6 +11,9 @@ import xtwitter from './../../assets/img/x-twitter.svg';
 
 
 export const Footer = () => {
+	function getCurrentYear() {
+		return new Date().getFullYear()
+	}
 	return (
 		<>
 			<footer className="footer">
@@ -57,7 +60,7 @@ export const Footer = () => {
 							</ul>
 						</figure>
 					</div>
-					<div className="footer__copy">Copyright © 2009-2025 «Mostbet». All rights reserved and protected by law. Mostbet uses cookies to enhance your website experience. By staying on the website, you agree to the use of these cookies.</div>
+					<div className="footer__copy">Copyright © 2009-{getCurrentYear()} «Mostbet». All rights reserved and protected by law. Mostbet uses cookies to enhance your website experience. By staying on the website, you agree to the use of these cookies.</div>
 
 					<div className="footer__age-rate"><span className="icon-circle icon">18+</span></div>
 

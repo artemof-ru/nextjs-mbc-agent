@@ -45,7 +45,12 @@ export const Header = () => {
 
 				<Link
 					href="#order"
-					onClick={() => {ym(95071208,'reachGoal','kassir-1'); ym(95071208,'reachGoal','kassir-sum'); rstat('event', 'becomeCashier_btn_click', { 'text': 'Become cashier', 'cls': 'sample element click', 'href': '/index.php#order', 'position': '1',}); rstat4('event', 'becomeCashier_btn_click', { 'text': 'Become cashier', 'cls': 'sample element click', 'href': '/index.php#order', 'position': '1',}); rstat('event', 'kassir-sum');}}
+					onClick={() => {
+						ym(95071208,'reachGoal','kassir-1');
+						ym(95071208,'reachGoal','kassir-sum');
+						rstat('event', 'becomeCashier_btn_click', { 'text': 'Become cashier', 'cls': 'sample element click', 'href': '/index.php#order', 'position': '1',});
+						rstat4('event', 'becomeCashier_btn_click', { 'text': 'Become cashier', 'cls': 'sample element click', 'href': '/index.php#order', 'position': '1',}); rstat('event', 'kassir-sum');
+					}}
 					className="header__send-btn btn-orange btn"
 				>Become Cashier</Link>
 

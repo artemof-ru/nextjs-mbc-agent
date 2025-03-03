@@ -1,5 +1,3 @@
-// Подключение списка активных модулей
-// import { flsModules } from "./modules.js";
 export const LOGGING = false;
 /* Проверка поддержки webp, добавление класса webp или no-webp для HTML */
 export function isWebp() {
@@ -223,7 +221,6 @@ export function useDynamicAdapt(type = 'max') {
 // Вспомогательные модули блокировки прокрутки и скочка ====================================================================================================================================================================================================================================================================================
 export let bodyLockStatus = true;
 export let bodyLockToggle = (delay, lp = true) => {
-	console.log(`lp => `,lp)
 	if (document.documentElement.classList.contains('lock')) {
 		bodyUnlock(delay, lp);
 	} else {

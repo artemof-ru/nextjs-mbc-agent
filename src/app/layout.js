@@ -24,7 +24,7 @@ export const metadata = {
 		images: '/favicon.png'
 	},
 	alternates: {
-        canonical: './',
+        canonical: 'https://nextjs-mbc-agent.vercel.app/',
     }
 };
 
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
 			<link rel="icon" href="/favicon-star.png" sizes="any" />
 			<meta name="format-detection" content="telephone=no" />
 			{/* <meta property="og:image" content="/favicon.png" /> */}
-			{/* <link rel="canonical" href="https://mbc-agent.com/en/index.php" /> */}
+			{/* <link rel="canonical" href="https://nextjs-mbc-agent.vercel.app/" /> */}
 
 			<body className={font.variable}>
 				<div className="wrapper">

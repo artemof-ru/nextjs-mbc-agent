@@ -1,4 +1,4 @@
-import { LOGGING, bodyLock, bodyUnlock } from './Functions';
+import { LOGGING, bodyLock, bodyUnlock, bodyLockStatus } from './Functions';
 export default class Popup {
 	constructor(options) {
 		let config = {
